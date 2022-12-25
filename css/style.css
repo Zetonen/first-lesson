@@ -1,10 +1,10 @@
 body {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 p,
@@ -14,34 +14,34 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
+  margin: 0;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 ul,
 ol {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .flex {
-	display: flex;
+  display: flex;
 }
 .container {
-	width: 1440px;
-	margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 .header .flex {
-	align-items: center;
+  align-items: center;
 }
 
 .header {
@@ -52,19 +52,19 @@ img {
 .header-nav {
 }
 .header-list {
-	margin-left: 433px;
-	margin-right: 371px;
-	gap: 31px;
+  margin-left: 433px;
+  margin-right: 371px;
+  gap: 31px;
 }
 .header-item {
 }
 .header-link {
-	display: block;
-	padding-top: 47px;
-	padding-bottom: 47px;
+  display: block;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 .header-button {
-	margin-right: 34px;
+  margin-right: 34px;
 }
 
 .hero {
@@ -72,18 +72,58 @@ img {
 .container {
 }
 .hero-wrap {
-	
-	max-width: 433px;
-	margin: auto;
+  max-width: 433px;
+  margin: auto;
 }
 .hero-title {
-	margin-bottom: 36px;
-	font-size: 56px;
-	line-height: 69px;
+  margin-bottom: 36px;
+  font-size: 56px;
+  line-height: 69px;
 }
 
 .hero-text {
-	margin-bottom: 60px;
-	font-size: 20px;
-	line-height: 1.4;
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 1.4;
 }
+
+/* posts-tall */
+
+.posts-tall {
+  padding-top: 96px;
+  padding-bottom: 127px;
+}
+.second-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.posts-tall-title {
+  margin-bottom: 23px;
+
+  text-align: center;
+}
+
+.posts-tall-text {
+  text-align: center;
+}
+
+.posts-talls-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 64px;
+}
+
+.posts-tall-item {
+  /* max-width: 270px; */
+  flex-basis: calc((100% - 30px * 3) / 4);
+
+  background-color: #FAFAFA;
+}
+
+.posts-tall-item-content{
+	padding: 24px;
+}
+
+.posts-tall-item-content-title{
+	margin-bottom: 74px;
+} 
